@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Student Management System</h1>
+    <div id="student-form">
+      <input
+        type="text"
+        id="student-name"
+        placeholder="Student Name"
+        required
+      />
+      <input
+        type="text"
+        id="student-reg"
+        placeholder="Registration Number"
+        required
+      />
+      <input type="text" id="student-course" placeholder="Course" required />
+      <input type="text" id="student-grade" placeholder="Grade" required />
+      <button onclick="addStudent()">Add Student</button>
+    </div>
+    <h2>Student List</h2>
+    <ul id="student-list"></ul>
+    <script src="main.js"></script>
+  </body>
+</html>
